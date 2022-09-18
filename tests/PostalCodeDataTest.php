@@ -72,7 +72,11 @@ class PostalCodeDataTest extends TestCase
 
     public function goodCountries(): array
     {
+<<<<<<< HEAD
         $postalCodes = require dirname(__DIR__) . '/src/data.php';
+=======
+        $postalCodes = require dirname(__DIR__) . '/src/postalCodes.php';
+>>>>>>> 25aa455 (Initial commit)
         $goodCountries = [];
 
         foreach (array_keys($postalCodes) as $country) {
