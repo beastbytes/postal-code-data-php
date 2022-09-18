@@ -16,7 +16,7 @@ final class PostalCodeData implements PostalCodeDataInterface
     public function __construct(private array|string|null $postalCodeData = null)
     {
         if ($this->postalCodeData === null) {
-            $this->postalCodeData = require 'postalCodes.php';
+            $this->postalCodeData = require 'data.php';
         } elseif (is_string($this->postalCodeData)) {
             $this->postalCodeData = require $this->postalCodeData;
         }
