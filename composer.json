@@ -1,0 +1,38 @@
+{
+    "name": "beastbytes/postal-code-data-php",
+    "type": "library",
+    "description": "Implementation of postal-code-data using PHP as the storage",
+    "keywords": [
+        "postal code"
+    ],
+    "support": {
+        "issues": "https://github.com/beastbytes/postal-code-data-php/issues",
+        "source": "https://github.com/beastbytes/postal-code-data-php"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Chris Yates",
+        "email": "chris.l.yates@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0",
+        "beastbytes/postal-code-data": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "roave/security-advisories": "dev-latest",
+        "vimeo/psalm": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\PostalCode\\PHP\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
