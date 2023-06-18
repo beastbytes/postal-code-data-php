@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright © 2022 BeastBytes - All rights reserved
+ * @copyright Copyright © 2023 BeastBytes - All rights reserved
  * @license BSD 3-Clause
  */
 
@@ -13,16 +13,20 @@ use InvalidArgumentException;
 
 final class PostalCodeData implements PostalCodeDataInterface
 {
+    public const COUNTRY_NOT_FOUND_EXCEPTION_MESSAGE =
+        'Country {country} not found in list of postal code formats';
+    public const INVALID_DATA_EXCEPTION_MESSAGE
+        = '`$postalCodeData` must be an array of postal code data, a path to a file that returns an array of postal code data, or `null` to use local data';
     public function __construct(private array|string|null $postalCodeData = null)
     {
         if ($this->postalCodeData === null) {
-            $this->postalCodeData = require 'data.php';
+            $this->postalCodeData = require dirname(__DIR__) . '/data/data.php';
         } elseif (is_string($this->postalCodeData)) {
             $this->postalCodeData = require $this->postalCodeData;
         }
 
-        if (!is_array($this->postalCodeData)) {
-            throw new InvalidArgumentException('`$postalCodeData` must be an array of Postal Code data, a path to a file that returns an array of Postal Code data, or `null` to use local data');
+        if (!is_array($this->postalCodeData) || count($this->postalCodeData) === 0) {
+            throw new InvalidArgumentException(self::INVALID_DATA_EXCEPTION_MESSAGE);
         }
     }
 
@@ -38,7 +42,7 @@ final class PostalCodeData implements PostalCodeDataInterface
         }
 
         throw new InvalidArgumentException(strtr(
-            'Country "{country}" not found in list of Postal Codes',
+            self::COUNTRY_NOT_FOUND_EXCEPTION_MESSAGE,
             ['{country}' => $country]
         ));
     }
