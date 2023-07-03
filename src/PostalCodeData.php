@@ -25,7 +25,7 @@ final class PostalCodeData implements PostalCodeDataInterface
             $this->postalCodeData = require $this->postalCodeData;
         }
 
-        if (!is_array($this->postalCodeData) || count($this->postalCodeData) === 0) {
+        if (!is_array($this->postalCodeData)) {
             throw new InvalidArgumentException(self::INVALID_DATA_EXCEPTION_MESSAGE);
         }
     }
@@ -37,14 +37,14 @@ final class PostalCodeData implements PostalCodeDataInterface
 
     public function getPattern(string $country): string
     {
-        if ($this->hasCountry($country)) {
-            return $this->postalCodeData[$country];
+        if (!$this->hasCountry($country)) {
+            throw new InvalidArgumentException(strtr(
+                self::COUNTRY_NOT_FOUND_EXCEPTION_MESSAGE,
+                ['{country}' => $country]
+            ));
         }
 
-        throw new InvalidArgumentException(strtr(
-            self::COUNTRY_NOT_FOUND_EXCEPTION_MESSAGE,
-            ['{country}' => $country]
-        ));
+        return $this->postalCodeData[$country];
     }
 
     public function hasCountry(string $country): bool
