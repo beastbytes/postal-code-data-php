@@ -7,400 +7,192 @@
 declare(strict_types=1);
 
 return [
-    'AD' => [ // Andorra
-        'country' => 'AD',
-        'postalCode' =>  'AD200',
-    ],
-    'AL' => [ // Albania
-        'country' => 'AL',
-        'postalCode' =>  '5372',
-    ],
-    'AM' => [ // Armenia
-        'country' => 'AM',
-        'postalCode' =>  '5372',
-    ],
-    'AR' => [ // Argentina
-        'country' => 'AR',
-        'postalCode' =>  'A4819DER',
-    ],
-    'AT' => [ // Austria
-        'country' => 'AT',
-        'postalCode' =>  '5372',
-    ],
-    'AU' => [ // Australia
-        'country' => 'AU',
-        'postalCode' =>  '5372',
-    ],
-    'AZ' => [
-        'country' => 'AZ',
-        'postalCode' =>  'AZ9127', // Azerbaijan
-    ],
-    'BB' => [
-        'country' => 'BB',
-        'postalCode' =>  'BB42630', // Barbados
-    ],
-    'BE' => [
-        'country' => 'BE',
-        'postalCode' =>  '6423', // Belgium
-    ],
-    'BG' => [
-        'country' => 'BG',
-        'postalCode' =>  '4692', // Bulgaria
-    ],
-    'BN' => [
-        'country' => 'BN',
-        'postalCode' =>  'KJ9127', // Brunei
-    ],
-    'BR' => [
-        'country' => 'BR',
-        'postalCode' =>  '58234-439', // Brazil
-    ],
-    'CA' => [
-        'country' => 'CA',
-        'postalCode' =>  'A2Z 0M9', // Canada
-    ],
-    'CH' => [
-        'country' => 'CH',
-        'postalCode' =>  '7733', // Switzerland
-    ],
-    'CL' => [
-        'country' => 'CL',
-        'postalCode' =>  '827-9127', // Chile
-    ],
-    'CO' => [
-        'country' => 'CO',
-        'postalCode' =>  '432741', // Colombia
-    ],
-    'CR' => [
-        'country' => 'CR',
-        'postalCode' =>  '56283-5342', // Costa Rica
-    ],
-    'CY' => [
-        'country' => 'CY',
-        'postalCode' =>  '99654', // Cyprus
-    ],
-    'CZ' => [
-        'country' => 'CZ',
-        'postalCode' =>  '627 27', // Czech Republic
-    ],
-    'DE' => [
-        'country' => 'DE',
-        'postalCode' =>  '42630', // Germany
-    ],
-    'DK' => [
-        'country' => 'DK',
-        'postalCode' =>  '2549', // Denmark
-    ],
-    'DO' => [
-        'country' => 'DO',
-        'postalCode' =>  '42630', // Dominican Republic
-    ],
-    'DZ' => [
-        'country' => 'DZ',
-        'postalCode' =>  '42630', // Algeria
-    ],
-    'EC' => [
-        'country' => 'EC',
-        'postalCode' =>  '427401', // Ecuador
-    ],
-    'EE' => [
-        'country' => 'EE',
-        'postalCode' =>  '42630', // Estonia
-    ],
-    'EG' => [
-        'country' => 'EG',
-        'postalCode' =>  '42630', // Egypt
-    ],
-    'ES' => [
-        'country' => 'ES',
-        'postalCode' =>  '42630', // Spain
-    ],
-    'FI' => [
-        'country' => 'FI',
-        'postalCode' =>  '42630', // Finland
-    ],
-    'FK' => [
-        'country' => 'FK',
-        'postalCode' =>  'FIQQ 1ZZ', // Falkland Islands
-    ],
-    'FO' => [
-        'country' => 'FO',
-        'postalCode' =>  'FO-543', // Faroe Islands
-    ],
-    'FR' => [
-        'country' => 'FR',
-        'postalCode' =>  '42630', // France
-    ],
-    'GB' => [
-        'country' => 'GB',
-        'postalCode' =>  'SW1 1AA',
-    ],
-    'GG' => [
-        'country' => 'GG',
-        'postalCode' =>  'GY79 4TH', // Guernsey (GB postal code format)
-    ],
-    'GH' => [
-        'country' => 'GH',
-        'postalCode' =>  'AZ13246', // Ghana
-    ],
-    'GI' => [
-        'country' => 'GI',
-        'postalCode' =>  'GX11 1AA', // Gibraltar
-    ],
-    'GR' => [
-        'country' => 'GR',
-        'postalCode' =>  '27 27', // Greece
-    ],
-    'GS' => [
-        'country' => 'GS',
-        'postalCode' =>  'SIQQ 1ZZ', // South Georgia and the South Sandwich Islands
-    ],
-    'GT' => [
-        'country' => 'GT',
-        'postalCode' =>  '42630', // Guatemala
-    ],
-    'HU' => [
-        'country' => 'HU',
-        'postalCode' =>  '2549', // Hungary
-    ],
-    'ID' => [
-        'country' => 'ID',
-        'postalCode' =>  '69127', // Indonesia
-    ],
-    'IE' => [
-        'country' => 'IE',
-        'postalCode' =>  'F75 FEK0', // Ireland
-    ],
-    'IL' => [
-        'country' => 'IL',
-        'postalCode' =>  '7235106', // Israel
-    ],
-    'IM' => [
-        'country' => 'IM',
-        'postalCode' =>  'IM32 3LW', // Isle of Man (GB postal code format)
-    ],
-    'IN' => [
-        'country' => 'IN',
-        'postalCode' =>  '431 764', // India
-    ],
-    'IO' => [
-        'country' => 'IO',
-        'postalCode' =>  'BBND 1ZZ', // British Indian Ocean Territory
-    ],
-    'IQ' => [
-        'country' => 'IQ',
-        'postalCode' =>  '34534', // Iraq
-    ],
-    'IT' => [
-        'country' => 'IT',
-        'postalCode' =>  '53928', // Italy
-    ],
-    'JE' => [
-        'country' => 'JE',
-        'postalCode' =>  'JE8 4LW', // Jersey (GB postal code format)
-    ],
-    'JP' => [
-        'country' => 'JP',
-        'postalCode' =>  '543-9127', // Japan
-    ],
-    'KR' => [
-        'country' => 'KR',
-        'postalCode' =>  '42630', // South Korea
-    ],
-    'LK' => [
-        'country' => 'LK',
-        'postalCode' =>  '42630', // Sri Lanka
-    ],
-    'LT' => [
-        'country' => 'LT',
-        'postalCode' =>  'LT-42630', // Lithuania
-    ],
-    'LU' => [
-        'country' => 'LU',
-        'postalCode' =>  '99127', // Luxembourg
-    ],
-    'LV' => [
-        'country' => 'LV',
-        'postalCode' =>  'LV-9127', // Latvia
-    ],
-    'MD' => [
-        'country' => 'MD',
-        'postalCode' =>  'MD-9127', // Moldova
-    ],
-    'ME' => [
-        'country' => 'ME',
-        'postalCode' =>  '42630', // Montenegro
-    ],
-    'MK' => [
-        'country' => 'MK',
-        'postalCode' =>  '5439', // Macedonia
-    ],
-    'MM' => [
-        'country' => 'MM',
-        'postalCode' =>  '42630', // Myanmar
-    ],
-    'MS' => [
-        'country' => 'MS',
-        'postalCode' =>  'MSR1230', // Montserrat
-    ],
-    'MT' => [
-        'country' => 'MT',
-        'postalCode' =>  'ADX 9127', // Malta
-    ],
-    'MU' => [
-        'country' => 'MU',
-        'postalCode' =>  'A9127', // Mauritius
-    ],
-    'MX' => [
-        'country' => 'MX',
-        'postalCode' =>  '42630', // Mexico
-    ],
-    'MY' => [
-        'country' => 'MY',
-        'postalCode' =>  '42630', // Malaysia
-    ],
-    'NG' => [
-        'country' => 'NG',
-        'postalCode' =>  '432401', // Nigeria
-    ],
-    'NI' => [
-        'country' => 'NI',
-        'postalCode' =>  '59127', // Nicaragua
-    ],
-    'NL' => [
-        'country' => 'NL',
-        'postalCode' =>  '639 NL', // Netherlands
-    ],
-    'NO' => [
-        'country' => 'NO',
-        'postalCode' =>  '5372', // Norway
-    ],
-    'NZ' => [
-        'country' => 'NZ',
-        'postalCode' =>  '5372', // New Zealand
-    ],
-    'PA' => [
-        'country' => 'PA',
-        'postalCode' =>  '0743', // Panama
-    ],
-    'PE' => [
-        'country' => 'PE',
-        'postalCode' =>  '42630', // Peru
-    ],
-    'PH' => [
-        'country' => 'PH',
-        'postalCode' =>  '5372', // Philippines
-    ],
-    'PK' => [
-        'country' => 'PK',
-        'postalCode' =>  '42630', // Pakistan
-    ],
-    'PL' => [
-        'country' => 'PL',
-        'postalCode' =>  '27-634', // Poland
-    ],
-    'PN' => [
-        'country' => 'PN',
-        'postalCode' =>  'PCRN 1ZZ', // Pitcairn Islands
-    ],
-    'PR' => [
-        'country' => 'PR',
-        'postalCode' =>  '00727-9876', // Puerto Rico
-    ],
-    'PT' => [
-        'country' => 'PT',
-        'postalCode' =>  '5825-380', // Portugal
-    ],
-    'PY' => [
-        'country' => 'PY',
-        'postalCode' =>  '5372', // Paraguay
-    ],
-    'RO' => [
-        'country' => 'RO',
-        'postalCode' =>  '437401', // Romania
-    ],
-    'RS' => [
-        'country' => 'RS',
-        'postalCode' =>  '23917', // Serbia
-    ],
-    'RU' => [
-        'country' => 'RU',
-        'postalCode' =>  '427401', // Russia
-    ],
-    'SA' => [
-        'country' => 'SA',
-        'postalCode' =>  '47193-9127', // Saudi Arabia
-    ],
-    'SE' => [
-        'country' => 'SE',
-        'postalCode' =>  'SE-543-27', // Sweden
-    ],
-    'SG' => [
-        'country' => 'SG',
-        'postalCode' =>  '432740', // Singapore
-    ],
-    'SH' => [
-        'country' => 'SH',
-        'postalCode' =>  'STHL 1ZZ', // Saint Helena, Ascension and Tristan da Cunha
-    ],
-    'SI' => [
-        'country' => 'SI',
-        'postalCode' =>  '5372', // Slovenia
-    ],
-    'SK' => [
-        'country' => 'SK',
-        'postalCode' =>  '827 27', // Slovakia
-    ],
-    'TC' => [
-        'country' => 'TC',
-        'postalCode' =>  'TKCA 1ZZ', // Turks and Caicos Islands
-    ],
-    'TH' => [
-        'country' => 'TH',
-        'postalCode' =>  '79127', // Thailand
-    ],
-    'TN' => [
-        'country' => 'TN',
-        'postalCode' =>  '6742', // Tunisia
-    ],
-    'TR' => [
-        'country' => 'TR',
-        'postalCode' =>  '42630', // Turkey
-    ],
-    'TW' => [
-        'country' => 'TW',
-        'postalCode' =>  '427850', // Taiwan
-    ],
-    'UA' => [
-        'country' => 'UA',
-        'postalCode' =>  '42630', // Ukraine
-    ],
-    'US' => [
-        'country' => 'US',
-        'postalCode' =>  '48139', // United States of America
-    ],
-    'UY' => [
-        'country' => 'UY',
-        'postalCode' =>  '42630', // Uruguay
-    ],
-    'VE' => [
-        'country' => 'VE',
-        'postalCode' =>  '4364-A', // Venezuela
-    ],
-    'VI' => [
-        'country' => 'VI',
-        'postalCode' =>  '00827 5492', // United States Virgin Islands
-    ],
-    'VN' => [
-        'country' => 'VN',
-        'postalCode' =>  '42630', // Vietnam
-    ],
-    'XK' => [
-        'country' => 'XK',
-        'postalCode' =>  '40027', // Kosovo NOTE: XK is a temporary code used until ISO assign a permanent code
-    ],
-    'ZA' => [
-        'country' => 'ZA',
-        'postalCode' =>  '5372', // South Africa
-    ],
+    'AD' => '/^AD[1-7]00$/', // Andorra
+    'AF' => '/^(([1-3]\d)|(4[0-3]))\d{2}$/', // Afghanistan
+    'AL' => '/^((1(0|5|7|8))|(2(0|5))|(3(0|[3-5]))|(4(0|[3-7]))|((5|6|7)(0|3|4))|(8(0|[3-7]))|(9(0|3|4|7)))\d{2}$/', // Albania
+    'AI' => '/^AI-2640$/', //Anguilla
+    'AM' => '/^\d{2}\d{2}$/', // Armenia // may be able to make first \d{2} more specific
+    'AQ' => '/^BIQQ 1ZZ$/', // British Antarctic Territory
+    'AR' => '/^(?(?=.*[A-Z]{3})([A-HJ-NP-Z]))\d{4}(?(1)([A-Z]{3}))$/', // Argentina
+    'AS' => '/^96799(-\d{4}?)$/', // American Samoa
+    'AT' => '/^[1-9]\d{3}$/', // Austria
+    'AU' => '/^(0(2|8|9)\d{2})|((1|2|[4-9])\d{3})|(3\d(([0-8]\d)|(9[0-6]))$/', // Australia
+   	'AX' => '/^(AX-)?22\d{3}$/', // Åland
+    'AZ' => '/^AZ\d{2}\d{2}$/', // Azerbaijan // may be able to make first \d{2} more specific
+    'BA' => '/^\d{5}$/', // Bosnia and Herzegovina
+    'BB' => '/^BB\d{5}$/', // Barbados
+    'BD' => '/^(([1357]\d{3})|((([29][0-4])|([468][0-7]))\d{2}))\d{2}$/', // Bangladesh
+    'BE' => '/^\d{2}\d{2}$/', // Belgium // may be able to make first \d{2} more specific
+    'BG' => '/^\d{4}$/', // Bulgaria
+    'BH' => '/^\d{3,4}$/', // Bahrain
+    'BL' => '/^97133$/', // Saint Barthélemy
+    'BM' => '/^((CR)|(SB)|(SN) 0[1-4])|(DD 0[1-3])|((DV)|(FL) 0[1-8])|(GE (0[1-5])|(CX))|(HM ([01]\d)|(20))|(HS 0[12])|((MA)|(PG) 0[1-6])|(WK (0\d)|(10))$/', // Bermuda
+    'BN' => '/^[BKTP][A-Z]\d{4}$/', // Brunei
+    'BR' => '/^\d{5}-\d{3}$/', // Brazil
+    'BT' => '/^\d{5}$/', // Bhutan
+    'BY' => '/^\d{6}$/', // Belarus
+    'CA' => '/^[A-CEGHJ-NPR-TVXY]\d[A-CEGHJ-NPR-TV-Z] \d[A-CEGHJ-NPR-TV-Z]\d$', // Canada
+    'CC' => '/^\d{4}$/', // Cocos (Keeling) Island
+    'CH' => '/^(([1-8]\d)|(9[0-6]))\d{2}$/', // Switzerland
+    'CL' => '/^\d{7}$/', // Chile
+    'CN' => '/^\d{2}\d{4}$/', // China // may be able to make \d{2} more specific
+    'CO' => '^((0[58])|(1[13579])|(2[0357])|(4[147])|(5[024])|(6[368])|(7[036])|(8[1568])|(9[14579]))[0-8]\d\d{2}$', // Colombia
+    'CR' => '/^\d\d{4}$/', // Costa Rica // first digit is one of 7
+    'CU' => '/^\d{5}$/', // Cuba
+    'CV' => '/^\d{4}$/', // Cape Verde
+    'CX' => '/^\d{4}$/', // Christmas Island
+    'CY' => '/^([1-9])|(99)\d{3}$/', // Cyprus
+    'CZ' => '/^[1-7]\d{2} \d{2}$/', // Czech Republic
+    'DE' => '/^\d{5}$/', // Germany
+    'DK' => '/^\d{4}$/', // Denmark
+    'DO' => '/^\d{5}$/', // Dominican Republic
+    'DZ' => '/^(([0-4]\d)|(5[0-8]))\d{2}$/', // Algeria
+    'EC' => '/^\d{2}\d{4}$/', // Ecuador // may be able to make \d{2} more specific
+    'EE' => '/^\d{5}$/', // Estonia
+    'EG' => '/^\d{7}$/', // Egypt
+    'ES' => '/^((0[1-9])|([1-4]\d)|(5[0-2]))\d{3}$/', // Spain
+    'ET' => '/^\d{4}$/', // Ethiopia
+    'FI' => '/^(FI-)?\d{2}\d{3}$/', // Finland // may be able to make \d{2} more specific
+    'FK' => '/^FIQQ 1ZZ$/', // Falkland Islands
+    'FM' => '/^9694[1-4](-\d{4})$/', // Micronesia
+    'FO' => '/^FO-\d{3}$/', // Faroe Islands
+    'FR' => '/^\d{5}$/', // France
+    'GB' => '/^((([BEGLMNSW]\d\d?)|([A-PR-UWYZ][A-HK-Y]\d\d?)|([EWW]1[A-HJKPS-UW])|(((((WC\d)|(EC[1-4])|(SW1)))[ABEHMNPRVWXY])|(NW1W)|(SE1P))) \d[ABD-HJLNP-UW-Z]{2})|(GIR 0AA)$/', // United kingdom
+    'GE' => '/^\d{4}$/', // Georgia
+    'GF' => '/^973(([0-8]\d)|(90))$/', // French Guianae
+    'GG' => '/^GY\d{1,2} \d[ABD-HJLNP-UW-Z]{2}$/', // Guernsey (GB postal code format)
+    'GH' => '/^((A[A-KM-Z][2-4679])|(B[A-LN-Z23])|(C[A-KN-PR-X])|(E[ABD-QS-Z23])|(G[A-EK-OSTWXZ])|(N[A-GIK-PR-UW-Z2-5])|(U[ABEGKLN-PR-UW])|(V[A-KM-Z])|(W[A-HJM-Z])|(X[DJ-LNOSTW-Y]))\d{5}$/', // Ghana
+    'GI' => '/^GX11 1AA$/', // Gibraltar
+    'GL' => '/^GL-39\d{2}$/', // Greenland
+    'GN' => '/^\d{3}$/', // Guinea
+    'GP' => '/^971\d{2}$/', // Guadeloupe
+    'GR' => '/^$\d{3}\d \d{2}/', // Greece // may be able to make first \d{2} more specific
+    'GS' => '/^SIQQ 1ZZ$/', // South Georgia and the South Sandwich Islands
+    'GT' => '/^((0[1-9])(1\d)|(2[0-2]))\d{3}$/', // Guatemala
+    'GU' => '/^\d{5}(-\d{4})?$/', // Guam
+    'GW' => '/^\d{4}$/', // Guinea Bissau
+    'HN' => '/^[A-Z]{2}\d{4}$/', // Honduras
+    'HR' => '/^((10)|(2[0-3])|(3[1-5])|(4[02-47-9])|(5[1-3]))\d{3}$/', // Croatia
+    'HT' => '/^\d{4}$/', // Haiti
+    'HU' => '/^[1-9]\d{3}$/', // Hungary
+    'ID' => '/^[1-9]\d{4}$/', // Indonesia
+    'IE' => '/^(D6W)|([AC-FHKNPRTV-Y]\d{2}) [0-9AC-FHKNPRTV-Y]{4}$/', // Ireland
+    'IL' => '/^\d{2}\d{5}$/', // Israel // may be able to make \d{2} more specific
+    'IM' => '/^IM\d{1,2} \d[ABD-HJLNP-UW-Z]{2}$/', // Isle of Man (GB postal code format)
+    'IN' => '/^[1-9]\d{5}$/', // India // might be able make more specific
+    'IO' => '/^BBND 1ZZ$/', // British Indian Ocean Territory
+    'IQ' => '/^((10)|(3[1246])|(4[1246])|(5[12468])|(6[1246]))\d{3}$/', // Iraq
+    'IR' => '/^\d{5}-\d{5}$/', // Iran
+   	'IS' =>	'/^\d{2}\d$/', // Iceland // may be able to make \d{2} more specific
+    'IT' => '/^\d{2}\d{3}$/', // Italy // may be able to make \d{2} more specific
+    'JE' => '/^JE\d{1,2} \d[ABD-HJLNP-UW-Z]{2}$/', // Jersey (GB postal code format)
+    'JO' => '/^\d{5}$/', // Jordan
+    'JP' => '/^\d{2}\d-\d{4}$/', // Japan // may be able to make \d{2} more specific
+    'KE' => '/^\d{5}$/', // Kenya
+    'KG' => '/^\d{6}$/', // Kyrgyzstan
+    'KH' => '/^12000$/', // Cambodia
+    'KN' => '/^KN/d{4}$/', // Saint Kitts and Nevis
+    'KR' => '/^((0[1-9])|([1-5]\d)|(6[0-3]))\d{3}$/', // South Korea
+    'KW' => '/^\d{5}$/', // Kuwait
+    'KY' => '/^$KY[1-3]-\d{4}/', // Cayman Islands
+    'KZ' => '/^\d{6}$/', // Kazakhstan
+    'KE' => '/^\d{5}$/', // Kenya
+    'LA' => '/^\d{5}$/', // Laos
+    'LB' => '/^\d{4} d{4}$/', // Lebanon
+    'LC' => '/^LC\d{2}-\d{3}$/', // Saint Lucia
+    'LI' => '/^94((8[5-9])|(9[0-8]))$/', // Liechtenstein
+    'LK' => '/^\d{5}$/', // Sri Lanka
+    'LR' => '/^d{4}$/', // Liberia
+    'LS' => '/^\d{3}$/', // Lesotho
+    'LT' => '/^(LT-)?\d{2}\d{3}$/', // Lithuania // may be able to make \d{2} more specific
+    'LU' => '/^[1-9]\d{3}$/', // Luxembourg
+    'LV' => '/^LV-\d{2}\d{2}$/', // Latvia // may be able to make first \d{2} more specific
+    'MA' => '/^\d{5}$/', // Morocco
+    'MC' => '/^980\d{2}$/', // Monaco
+    'MD' => '/^MD-\d\d{3}$/', // Moldova // may be able to make \d more specific
+    'ME' => '/^\d{5}$/', // Montenegro
+    'MF' => '/^97150$/', // Saint Martin
+    'MG' => '/^\d{3}$/', // Madagascar
+    'MH' => '/^969((6\d)|(70))(-\d{4})$/', // Marshall Islands
+    'MK' => '/^\d{4}$/', // Macedonia
+    'MM' => '/^((0[1-9])|(1[0-5]))\d{3}$/', // Myanmar
+    'MN' => '/^\d{5}$/', // Mongolia
+    'MP' => '/^9695[0–2]$/', // Northern Mariana Islands
+    'MQ' => '/^$972(([0-8]\d)|(90))/', // Martinique
+    'MS' => '/^MSR 1((1[1-9]\d)|(2\d{2})|(3(([0-4]\d)|50)))$/', // Montserrat Range 1110–1350
+    'MT' => '/^((ATD)|(B((BG)|(KR)|(ML)|(RG)|(ZN)))|(DGL)|(F((GR)|(NT)|(RN)))|(G((DJ)|(HR)|(RB)|(SM)|(SR)|(XQ)|(ZR)))|(HMR)|(I[KS]L)|(K((CM)|(K[PR])|(MN)))|(L[JQ]A)|(M(([DF]N)|(GR)|(LH)|(QB)|(RS)|(S[DKT])|(T[FP])|(X[KR])))|(N[DX]R)|(P((BK)|([LT]A)))|(Q((LA)|(R[DM])))|(RBT)|(S((CM)|(FI)|(G[NW])|(L[CMZ])|(NT)|(P[BK])|(TJ)|(VR)|(WQ)))|(T(P|(XN)))|(V[CL]T)|(W)|(X((BX)|(JR)|(LN)|(RA)|(WK)))|(Z((B[BGR])|(RQ)|(TN)))) \d{4}$/', // Malta
+    'MU' => '/^([1-9]|[AR])/d{4}$/', // Mauritius
+    'MV' => '/^\d{5}$/', // Maldives
+    'MW' => '/^\d{6}$/', // Malawi
+    'MX' => '/^((0[1-9])|(1[0-6])|([2-9]\d))\d{3}$/', // Mexico
+    'MY' => '/^((0([125-8]\d{3})|(9([0-7]\d{2})|(8(0\d)|(10))))|(1(([0-35-7]\d{3})|(4(([0-3]\d{2})|(40{2})))|(8(([0-4]\d{2})|(50{2})))))|(2(([0-35-7]\d{3})|(4(([0-2]\d{2})|(30{2})))|(8(([0-7]\d{2})|80{2}))))|(3(([0-5]\d{3})|(6)|(9(([01]\d{2})|(20{2})))))|(4(([0-7]\d{3})|(8(([0-2]\d{2})|(30{2})))|(90{3})))|(5\d{4})|(6((0{4})|(2(([3-8]\d{2})|(9(([0-7]\d)|(8[0-8])))))|([3-7]\d{3})|(8((0\d{2})|(100)))|(9{3})))|(7(([0-25-79]\d{3})|(3(([0-4]\d{2})|(50\d)))|(8(([0-2]\d{2})|(30\d)))))|(8(([0-5]\d{3})|(6(([0-8]\d{2})|(90{2})))|(70(([0-2]\d)|(3[0-3])))|(8\d{3})))|(9((0\d{3})|(1(([0-2]\d{2})|(30\d)))|([3-7]\d{3})|(8(([0-7]\d{2})|(8[0-5]\d))))))', // Malaysia
+    'MZ' => '/^\d{4}$/', // Mozambique
+    'NA' => '/^(1((00([012]\d)|(3[0-4]))|(100[1-8])|([23467]00[1-9])|(201[1-3])|(301[1-5])|(401[01])|(500[1-6])|([67]010)|([89]00[12])))|(2(([01]0[0-5])|(1006)|([23]0[1-9])|(301[0-7])))$/', // Nambia
+    'NC' => '/^988\d{2}$/', // New Caledonia
+    'NE' => '/^\d{4}$/', // Niger
+    'NF' => '/^\d{4}$/', // Norfolk Island
+    'NG' => '/^\d{6}$/', // Nigeria
+    'NI' => '/^\d{5}$/', // Nicaragua
+    'NL' => '/^\d{2}\d{2} (([A-RT-Z])|(S[BCE-RT-Z]))$/', // Netherlands // may be able to make first \d{2} more specific
+    'NO' => '/^(NO-)?\d{4}$/', // Norway
+    'NP' => '/^\d{5}$/', // Nepal
+    'NZ' => '/^((0[1-9])|([1347]\d)|(2[0-6])|(5[0-3578])|(6[0-249])|(8[0-24-689])|(9[02-8]))\d{2}$/', // New Zealand
+    'OM' => '/^\d{3}$/', // Oman
+    'PA' => '/^((0\d)|(1[0-2]))\d{3}$/', // Panama
+    'PE' => '/^\d{3}\d{2}$/', // Peru // may be able to make \d{3} more specific
+    'PF' => '/^987(([0-8]\d)|(90))$/', // French Polynesia nch codes used. Range 98700–98790.
+    'PG' => '/^\d{3}$/', // Papua New Guinea
+    'PH' => '/^((0[4-9])|([1-4]\d)|([56][0-8])|(7[0-5])|([89][0-7]))\d{2}$/', // Philippines
+    'PK' => '/^\d{5}$/', // Pakistan
+    'PL' => '/^\d{2}-\d{3}$/', // Poland // may be able to make \d{2} more specific
+    'PM' => '/^97500$/', // Saint Pierre and Miquelon
+    'PN' => '/^PCRN 1ZZ$/', // Pitcairn Islands
+    'PR' => '/^00(6|7|9)\d{2}(-\d{4})$/', // Puerto Rico
+    'PS' => '/^[1-9]\d{2}$/', // Palestein: Westbank (100-899) & Gaza Strip (900-999)
+    'PT' => '/^[1-9]\d{3}-\d{3}$/', // Portugal
+    'PY' => '/^\d{4}$/', // Paraguay
+    'PW' => '/^969(39|40)$/', // Palau
+    'RE' => '/^974(([0-8]\d)|(90))$/', // Réunion
+    'RO' => '/^((0[1-8])|([12][0-4])|([37][0-3])|([45][0-5])|([689][0-2]))\d{4}$/', // Romania
+    'RS' => '/^\d{2}\d{3}$/', // Serbia // may be able to make \d{2} more specific
+    'RU' => '/^\d{3}\d{3}$/', // Russia // may be able to make \d{3} more specific
+    'SA' => '/^[1-8]\d{4}(-\d{4})?$/', // Saudi Arabia
+    'SD' => '/^d{5}$/', // Sudan
+    'SE' => '/^(1((00 ((1[2-9])|([2-9]\d)))|((0[1-9]) \d{2})|([2-9]\d \d{2})))|([2-8]\d{2} \d{2})|(9(([0-7]\d)|8[0-4]) \d{2})$/', // Sweden
+    'SG' => '/^\d{6}$/', // Singapore
+    'SH' => '/^((ASCN)|(STHL)|(TDCU)) 1ZZ$/', // Saint Helena, Ascension and Tristan da Cunha
+    'SI' => '/^(SI-)?[1-689]\d{3}$/', // Slovenia
+    'SJ' => '/^d{4}$/', // Svalbard and Jan Mayen
+    'SK' => '/^(SK-)?[089]\d{2} \d{2}$/', // Slovakia
+    'SM' => '/^4789/d$/', // San Marino
+    'SN' => '/^d{5}$/', // Senegal
+    'SO' => '/^[A-Z] d{5}$/', // Somalia
+    'SV' => '/^\d{4}$/', // El Salvador
+    'SZ' => '/^((H1|M2)((0|1)\d|20))|(L3((0\d)|(1[0-7])))|(S4((0\d)|(1[0-5])))$/', // Eswatini
+    'TC' => '/^TKCA 1ZZ$/', // Turks and Caicos Islands
+    'TH' => '/^(([15][0-8])|([267][0-7])|([34]\d)|([89][0-6]))\d{3}$/', // Thailand
+    'TJ' => '/^d{6}$/', // Tajikistan
+    'TM' => '/^d{6}$/', // Turkmenistan
+    'TN' => '/^(([1-4][0-2])|([5-9][01]))\d{2}$/', // Tunisia
+    'TR' => '/^((0[1-9])|([1-7]\d)|8[01])\d{3}', // Turkey
+    'TT' => '/^(([156]\d)|(2[1-9])|(3[0-7])|(4[1-6])|(7[0-3])|(8[1-7])|(9[0-8]))d{4}$/', // Trinidad and Tobago
+    'TW' => '/^[1-9]\d{2}(-\d{2,3})$/', // Taiwan
+    'TZ' => '/^d{5}$/', // Tanzania
+    'UA' => '/^((0[1-9])|[1-9]\d)\d{2}$/', // Ukraine
+    'UM' => '/^96898$/', // United States Minor Outlying Islands
+    'US' => '/^\d{5}(-\d{4})?$/', // United States of America
+    'UY' => '/^d{5}$', // Uruguay
+    'UZ' => '/^d{6}$', // Uzbekistan
+    'VA' => '/^00120$/', // Vatican
+    'VC' => '/^VCd{4}$', // Saint Vincent and the Grenadines
+    'VE' => '/^\d{4)(-[A-Z])?$/', // Venezuela
+    'VG' => '/^VG 11(([1-5]\d)|(60))$/', // British Virgin Islands VG1110 through VG1160
+    'VI' => '/^008((0[1-9])|[2-4]\d)|(5[0-1]))(-\d{4})$/', // United States Virgin Islands
+    'VN' => '/^((0[1-8]|([179][0-8])|(2[0-6])|(3[0-5])|([45]\d)|([68][0-7])))\d{3}$/', // Vietnam
+    'WF' => '/^986(([0-8]\d)|90)$/', // Wallis and Futuna
+    'WS' => '/^WSd{4}$', // Samoa
+    'XK' => '/^((1[0-5])|(2[0-4])|(3[0-2])|(4[0-3])|(5[01])|(6[0-2])|(7[0-3]))\s?\d{3}$/', // Kosovo NOTE: XK is a temporary code used until ISO assign a permanent code
+    'YT' => '/^976(([0-8]\d)|(90))$/', // Mayotte Range 97600–97690
+    'ZA' => '/^\d{4}$/', // South Africa
+    'ZM' => '/^\d{5}$/', // Zambia
 ];
